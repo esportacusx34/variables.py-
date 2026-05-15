@@ -19,3 +19,15 @@ Print(nombre)
 Print(edad)
 Print(estado)
 Print(nota)
+
+#vamos a utilizar la funcion input para recojer datos por medio del teclado.
+nombre=input("¿como te llamas? ")
+edad=input("¿que edad tienes? ")
+estado=input("¿En que estado te encuentras? ")
+nota=input("¿cual es tu nota? ")
+
+#para visualizar que guardamos en las variables anteriores
+print("Hola,",nombre,"un gusto conocerte")
+print("Tu edad es:",edad)
+print("Tu estado es:",estado)
+print("Tu nota es:",nota)
